@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>A Pen by  Jacob Walz</title>
+    
+    
+    
+    
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <!--<!DOCTYPE html>-->
+<html>
+<!--This is a project by Jacob Walz.  It is desinged to show how much HTML I have learned from stage 0 of the the Introduction to Programming course.-->
+
+<head>
+  <!--The head is one of the first tags in an html document.  It contains the metadata of the document, such as the js location, css location and title of the document.-->
+  <title> Jacob's First HTML</title>
+  <!--The title tag holds the title of the document and will appear in the tab of the user's browser.  -->
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+  <div class="links">
+    <ul>
+      <li class="stage0link">
+        Stage 0 Notes
+        <ul>
+          <li><a href="#internet">How the Internet Works</a></li>
+          <li><a href="#html">HTML</a></li>
+          <li><a href="#think">Thinking Like a Computer</a></li>
+        </ul>
+      </li>
+      <li>Stage 1 Notes
+        <ul>
+          <li><a href="#document">The Document Object Model</a></li>
+          <li><a href="#tools">Developer Tools</a></li>
+          <li><a href="#html_boxes">HTML and Boxes</a></li>
+          <li><a href="#repitition">Avoid Repitition</a></li>
+          <li><a href="#css">CSS</a></li>
+
+        </ul>
+      </li>
+      <li>Stage 2 Notes
+        <ul>
+          <li><a href="#machine">The Computer as a Machine</a></li>
+          <li><a href="#program">Computer Programs</a></li>
+          <li><a href="#language">Programming Language</a></li>
+          <li><a href="#python">Python</a></li>
+          <li><a href="#variable">Variables</a></li>
+          <li><a href="#function">Functions</a></li>
+          <li><a href="#loops">Loops</a></li>
+          <li><a href="#problem">Solving Problems</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  <div class="stage0">
+    <div class="topHeader">
+      <h1>Notes From Stage0</h1>
+    </div>
+
+    <!--The body tag contains all of the content of the HTML document-->
+    <div class="header">
+      <h2><a id="internet">How the Internet Works</a></h2>
+    </div>
+    <!--The h tag is a header tag that comes in different sizes, 1-6, giving a wide variety of uses.-->
+    <div class="body">
+      <p>The <b>internet</b> is the worlds largest network of computers. Basically it is just a web for computers
+        <br> to talk to other computers, but on a giant scale. The <b>user</b> will get on a <b>browser</b> and send a request
+        <br> over the <b>internet</b> to a <b>web server</b> that is hosting what ever information the <b>user</b> wants. The <b>web server</b>
+        <br> then repsonds to the <b>user</b> with the information request and sends it back across the <b>internet</b> to appear on the <b>user's browser</b>.</p>
+    </div>
+    <!--The p tag is to set paragraphs.  It is a block tag.  The b tag sets the text to bold and is an inline tag.  The br tag puts a new line (/n) and is an inline tag as well. -->
+    <div class="header">
+      <h2><a id="html">HTML</a></h2>
+    </div>
+    <div class="body">
+      <p><em>HTML</em> is the basic language of the internet. Almost all of the web pages on the internet are written using
+        <em>HTML</em>.
+        <br><em>HTML</em> documents can contain links, images, text, video, and much more. The way that these different elements
+        <br> of an <em>HTML</em> document are written into the document are with
+        <em>tags</em>. <em>Tags</em> are markers that notify the <em>HTML</em> document
+        <br> that a specified set of text is not just text but an insrtuction of how to treat other sets of text. <em>Tags</em> are surrounded by &lt; and &gt;
+        <br> with the closing <em>tag</em> having a / infront of it. This is so the <em>HTML</em> document knows how to treat that text, and then the <em>tags</em>
+        <br> themselves surround the bit of text that they are affecting. An example of a <em>tag</em> is the b tag, which tells the <em>HTML</em> document
+        <br> that all of the text inbetween the opening and closing b tags should be bold.</p>
+      <p>Together a <em>tag</em> and the text that that<em>tag</em> is affecting are called and <em>element</em>. There are two types of <em>elements</em>, <em>inline</em>
+        <br> and <em>block</em>. <em>Inline elements</em> keep the element within the line of text and do not add anything extra to the text.
+        <br> <em>Block elements</em> put an invisible box around the text that the writer can use to set that bit of text apart from others.
+    </div>
+    <!--The em tag is the emphasis tag.  It puts the affected text in italics.  It is an inline element. -->
+    <div class="header">
+      <h2><a id="think">Thinking Like a Computer</a></h2>
+    </div>
+    <div class="body">
+      <p>Computers do exactly what they are told, but what they are told is not always what is meant. To have think like
+        <br> a computer is to be able to think in systematic steps. One must take everything one step at a time and without
+        <br> assuming any intetnion that may seemt to be built into the intrusction. This can be fairly difficult and requires much practice.
+    </div>
+  </div>
+  <div class="stage1">
+    <div class="topHeader">
+      <h1>Notes From Stage1</h1>
+    </div>
+    <div class="header">
+      <h2><a id="document">The Document Object Model</a></h2>
+    </div>
+    <div class="body">
+      <p>The <b>Document Object Model</b>, or <b>DOM</b>, is how web browsers interperit <em>html</em> files like this one. An <em>html</em> page is not written in some bizaar language, rather it is just written using a particular structure that allows browsers
+        to understand what the author intends. The <b>DOM</b> is a branched structure, having elements branch to other elements which may in turn branch off further and further. Not only does this allow for browers to read <em>html</em> documents it is
+        also fairly easliy understood by the human eye.</p>
+    </div>
+    <div class="header">
+      <h2><a id="tools">Developer Tools</a></h2>
+    </div>
+    <div class="body">
+      <p>The broswer Google Chrome has a usefull feature in the <b>Developer Tools</b>. They allow the user to inspect the elements of what ever web page he or she is viewing. If a person who is starting out in fron end web development is stuck or sees an
+        interesting feature on a web page, than that person can utilize the <b>Developer
+                           Tools</b> to see what kind of <em>tag, css,</em> and or <em>java script</em> was used to produce the desired effect.</p>
+    </div>
+    <div class="header">
+      <h2><a id="text">Text Editors</a></h2>
+    </div>
+    <div class="body">
+      <p><b>Text Editors</b> are a great tool for programmers. They help the programmer by keeping him or her in line with the <em>DOM</em> and grammatical structure of what ever language is being used</p>
+    </div>
+    <div class="header">
+      <h2><a id="html_boxes">HTML and Boxes</a></h2>
+    </div>
+    <div class="body">
+      <p>When one is looking at a web page, especially a good one, many shapes and design features will become apparent. However, looks may be deceiving. All of the elements display on an <b>HTML</b> page are actually
+        <b>boxes</b>. Though one may see a circle or a triangle, those shapes are contained in <b>boxes</b>. This makes it much easier for prgrammers to plan and lay out a web page as well as rearrange it if neccesary.</p>
+    </div>
+    <div class="header">
+      <h2><a id="repitition">Avoid Repition</a></h2>
+    </div>
+    <div class="body">
+      <p>Writing a program or creating a web page can be very time consuming and tedious. Becuase of that fact it is important for programmers to avoid repition as much as possible so as not to add to their already burdensome task. In avoiding rewriting
+        the same code over and over consistency and the ability to change large portions of code are gained. By reusing a trusted piece of code programmers can be assuered that what they are writing will be good.</p>
+    </div>
+    <div class="header">
+      <h2><a id="css">CSS</a></h2>
+    </div>
+    <div class="body">
+      <p>CSS, or Cascading Style Sheets, is the language used to add style to HTML web pages. With CSS a programmer can take a bland and uniteresting web page and turn it into a colorful and attention grabbing web page.</p>
+    </div>
+
+
+  </div>
+  <div class="stage2">
+    <div class="topheader">
+      <h1>Notes from Stage 2</h1>
+    </div>
+    <div class="header">
+      <h2><a id = "machine">The Computer as a Machine</a></h2>
+    </div>
+    <div class="body">
+      <p>Most machines are built with only a few specific functions and abilities in mind. With out physically altering the machine it can only prefomr the tasks that it was built to do. In this regard the computer is a special machine. It was built such
+        that it can be repurposed over and over to preform almost any task, including controling other machines. It has this ability through computer programs.</p>
+    </div>
+    <div class="header">
+      <h2><a id="program">Computer Programs</a></h2>
+    </div>
+    <div class="body">
+      <p>A computer program is a detailed list of instructions write so that a computer can understand them. The computer program must follow a precise sequence of steps while written in a programming language which is run through an interpreture so that
+        the computer can understand it.</p>
+    </div>
+    <div class="header">
+      <h2><a id="language">Programming Language</a></h2>
+    </div>
+    <div class="body">
+      <p>Programming languages are languages that have a strict grammar and syntax which eliminate all ambiguity. It is very important that a programming language is very precise in it's message to the computer. The computer can understand implied meaning,
+        nor can it understand what a person might have meant if he or she misspeaks. A program must inform the computer exaclty what the computer needs to do, this is why it is important for the programming language to have a strict and precise grammar.</p>
+    </div>
+    <div class="header">
+      <h2><a id="python">Python</a></h2>
+    </div>
+    <div class="body">
+      <p>Python is an example of a programming language. When run through a python interpreture it can tell the computer what to do. It is a fairly powerful and popular language. The program is consisted of expressions which are statements in the Python
+        language. An example of a Python expression is 'print 1 + 1'. That expression is valid because it follows Python's grammar and syntax.</p>
+    </div>
+    <div class="header">
+      <h2><a id="variable">Variables</a></h2>
+    </div>
+    <div class="body">
+      <p>In programming variables are what stores values or expressions. A variable can be any string of alpha characters or numbers so long as it does not start with a number. An example of a variable being set is name = "jacob" where name is a variable
+        storing the value jacob. When assinging variables, or giving variables the value they are to store, the '=' symbol does not mean 'equal to' as it does in arithmatic. Rather the '=' symbol should be seen more as an arrow pointing from left to right
+        that transfers the value into the variable.</p>
+      <p>Variables can be very useful as a way to capture as yet unknown values as well as giving names to values so that they may be better understood by someone reading the code. Variables can be given values of intergers, which are numbers, or strings,
+        which are alpha characters. For something to be a string it must be in either a set of single quotes or a set of double quotes. This extends to numbers as well, meaning that "2" is a string and not a number.</p>
+    </div>
+    <div class="header">
+      <h2><a id="function">Functions</a></h2>
+    </div>
+    <div class="body">
+      <p>A function is a routine that takes input, either from the user or from other parts of the program, and produces outputs. To write a function one start with the keyword 'def' which can be though of define. One then writes the functions name followed
+        by a set of (). Inside the () are any number of parameters or inputs, including zero, that the function will need. Finally a colon at the end of the line. The next line and all subsequent lines of the function should be indented as to show that
+        they are a part of that function. The lines that follow are the meat of the function, they are defining what the function will do with the input and what output it will produce.</p>
+      <p>Just defining a function will not do anything, for the function to be effective the program must call it. To call a function it just need be written out followed by the values desired to fulfill all of the requried parameters. Functions are a great
+        tool for reducing repitition since when one is written it can be used over and over just as once one makes a hammer one does not need to make another hammer if the need arises.</p>
+      <p>An example of defining and using a function is as follows:</br>
+        &emsp;def sum(num1,num2):</br>
+        &emsp;&emsp;result = num1 + num2</br>
+        &emsp;&emsp;return result</br>
+        </br>
+        &emsp;print sum(3,8)</br>
+
+        &emsp;>>>11
+      </p>
+    </div>
+    <div class="header">
+      <h2><a id="loops">Loops</a></h2>
+    </div>
+    <div class="body">
+      <p>Loops are a very useful tool for the programmer. They allow for a specific section of code to be perfomred a specifc amount of times. The two main types of loops are the 'while' loops and the 'for' loops. The while loop is started with True condition
+        and continues until the condition is Fales. If that condition never becomes Fales the 'while' loop, and the program, continues running forever, which makes while loops potentially very dangerous. 'For' loops are structured with a finite number
+        of iterations so that they cannot run forever.</p>
+    </div>
+    <div class="header">
+      <h2><a id="problem">Solving Problems</a></h2>
+    </div>
+    <div class="body">
+      <p>At it's simplest writing code is a series of solving problems. With that being the case, it is of great importance that a programmer have a strong strategy for solving problems. The first thing to do when presented a problem is make sure that you
+        understand what the problem is asking, and what it expects. You need to know the inputs and expected outputs. Once you have a grasp of the what the problem is about then you can start trying to solve it.</p>
+      <p>A good idea when starting to solve the problem is to break the problem down into smaller problems and write out pseudo code to solve those smaller problems. Once you have some of the smaller problems solved with psuedo code, write the actuall code
+        and test it. Keep repeating that process until the whole problem is solved.</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
+    
+    
+    
+    
+    
+  </body>
+</html>

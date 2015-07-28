@@ -1,0 +1,42 @@
+.body {
+  background-color: #c1e1a6;
+  max-width: 1000px;
+  border: 7px solid #558c89;
+  border-radius: 25px;
+  color: #585858;
+}
+
+.header {
+  color: #ff4d4d
+}
+
+.stage0 {
+  background-color: #585858;
+  border: 7px solid #ffff75;
+  border-radius: 25px;
+  color: #ffff75;
+}
+
+.stage0 h1 {
+  position: relative;
+  left: 350px;
+}
+
+.stage1 {
+  background-color: #585858;
+  border: 7px solid #ffff75;
+  border-radius: 25px;
+  color: #ffff75;
+}
+
+.stage2 {
+  background-color: #585858;
+  border: 7px solid #ffff75;
+  border-radius: 25px;
+  color: #ffff75;
+}
+
+.stage1 h1 {
+  position: relative;
+  left: 350px;
+}
